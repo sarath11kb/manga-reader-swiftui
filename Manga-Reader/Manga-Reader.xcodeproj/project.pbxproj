@@ -7,66 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848C3EA3295B201700A2DE0C /* Manga_ReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C3EA2295B201700A2DE0C /* Manga_ReaderApp.swift */; };
-		848C3EA5295B201700A2DE0C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C3EA4295B201700A2DE0C /* Persistence.swift */; };
-		848C3EA8295B201700A2DE0C /* Manga_Reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848C3EA6295B201700A2DE0C /* Manga_Reader.xcdatamodeld */; };
-		848C3EAA295B201700A2DE0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C3EA9295B201700A2DE0C /* ContentView.swift */; };
-		848C3EAC295B201900A2DE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848C3EAB295B201900A2DE0C /* Assets.xcassets */; };
-		848C3EB0295B201900A2DE0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848C3EAF295B201900A2DE0C /* Preview Assets.xcassets */; };
-		848C3EBA295B201900A2DE0C /* Manga_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C3EB9295B201900A2DE0C /* Manga_ReaderTests.swift */; };
-		848C3EC4295B201900A2DE0C /* Manga_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C3EC3295B201900A2DE0C /* Manga_ReaderUITests.swift */; };
-		848C3EC6295B201900A2DE0C /* Manga_ReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C3EC5295B201900A2DE0C /* Manga_ReaderUITestsLaunchTests.swift */; };
+		8438CB5B295B24F7006594F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CB5A295B24F7006594F8 /* AppDelegate.swift */; };
+		8438CB5D295B24F7006594F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CB5C295B24F7006594F8 /* SceneDelegate.swift */; };
+		8438CB5F295B24F7006594F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CB5E295B24F7006594F8 /* ViewController.swift */; };
+		8438CB62295B24F7006594F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8438CB60295B24F7006594F8 /* Main.storyboard */; };
+		8438CB65295B24F7006594F8 /* Manga_reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8438CB63295B24F7006594F8 /* Manga_reader.xcdatamodeld */; };
+		8438CB67295B24F8006594F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8438CB66295B24F8006594F8 /* Assets.xcassets */; };
+		8438CB6A295B24F8006594F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8438CB68295B24F8006594F8 /* LaunchScreen.storyboard */; };
+		8438CB75295B24F8006594F8 /* Manga_readerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CB74295B24F8006594F8 /* Manga_readerTests.swift */; };
+		8438CB7F295B24F8006594F8 /* Manga_readerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CB7E295B24F8006594F8 /* Manga_readerUITests.swift */; };
+		8438CB81295B24F8006594F8 /* Manga_readerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CB80295B24F8006594F8 /* Manga_readerUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		848C3EB6295B201900A2DE0C /* PBXContainerItemProxy */ = {
+		8438CB71295B24F8006594F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 848C3E97295B201700A2DE0C /* Project object */;
+			containerPortal = 8438CB4F295B24F7006594F8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 848C3E9E295B201700A2DE0C;
-			remoteInfo = "Manga-Reader";
+			remoteGlobalIDString = 8438CB56295B24F7006594F8;
+			remoteInfo = "Manga-reader";
 		};
-		848C3EC0295B201900A2DE0C /* PBXContainerItemProxy */ = {
+		8438CB7B295B24F8006594F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 848C3E97295B201700A2DE0C /* Project object */;
+			containerPortal = 8438CB4F295B24F7006594F8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 848C3E9E295B201700A2DE0C;
-			remoteInfo = "Manga-Reader";
+			remoteGlobalIDString = 8438CB56295B24F7006594F8;
+			remoteInfo = "Manga-reader";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		848C3E9F295B201700A2DE0C /* Manga-Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manga-Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		848C3EA2295B201700A2DE0C /* Manga_ReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga_ReaderApp.swift; sourceTree = "<group>"; };
-		848C3EA4295B201700A2DE0C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		848C3EA7295B201700A2DE0C /* Manga_Reader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Manga_Reader.xcdatamodel; sourceTree = "<group>"; };
-		848C3EA9295B201700A2DE0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		848C3EAB295B201900A2DE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		848C3EAD295B201900A2DE0C /* Manga_Reader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Manga_Reader.entitlements; sourceTree = "<group>"; };
-		848C3EAF295B201900A2DE0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		848C3EB5295B201900A2DE0C /* Manga-ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manga-ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		848C3EB9295B201900A2DE0C /* Manga_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga_ReaderTests.swift; sourceTree = "<group>"; };
-		848C3EBF295B201900A2DE0C /* Manga-ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manga-ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		848C3EC3295B201900A2DE0C /* Manga_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga_ReaderUITests.swift; sourceTree = "<group>"; };
-		848C3EC5295B201900A2DE0C /* Manga_ReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga_ReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8438CB57295B24F7006594F8 /* Manga-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manga-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8438CB5A295B24F7006594F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8438CB5C295B24F7006594F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8438CB5E295B24F7006594F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8438CB61295B24F7006594F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8438CB64295B24F7006594F8 /* Manga_reader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Manga_reader.xcdatamodel; sourceTree = "<group>"; };
+		8438CB66295B24F8006594F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8438CB69295B24F8006594F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8438CB6B295B24F8006594F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8438CB70295B24F8006594F8 /* Manga-readerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manga-readerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8438CB74295B24F8006594F8 /* Manga_readerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga_readerTests.swift; sourceTree = "<group>"; };
+		8438CB7A295B24F8006594F8 /* Manga-readerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manga-readerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8438CB7E295B24F8006594F8 /* Manga_readerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga_readerUITests.swift; sourceTree = "<group>"; };
+		8438CB80295B24F8006594F8 /* Manga_readerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga_readerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		848C3E9C295B201700A2DE0C /* Frameworks */ = {
+		8438CB54295B24F7006594F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		848C3EB2295B201900A2DE0C /* Frameworks */ = {
+		8438CB6D295B24F8006594F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		848C3EBC295B201900A2DE0C /* Frameworks */ = {
+		8438CB77295B24F8006594F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,145 +78,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		848C3E96295B201700A2DE0C = {
+		8438CB4E295B24F7006594F8 = {
 			isa = PBXGroup;
 			children = (
-				848C3EA1295B201700A2DE0C /* Manga-Reader */,
-				848C3EB8295B201900A2DE0C /* Manga-ReaderTests */,
-				848C3EC2295B201900A2DE0C /* Manga-ReaderUITests */,
-				848C3EA0295B201700A2DE0C /* Products */,
+				8438CB59295B24F7006594F8 /* Manga-reader */,
+				8438CB73295B24F8006594F8 /* Manga-readerTests */,
+				8438CB7D295B24F8006594F8 /* Manga-readerUITests */,
+				8438CB58295B24F7006594F8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		848C3EA0295B201700A2DE0C /* Products */ = {
+		8438CB58295B24F7006594F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				848C3E9F295B201700A2DE0C /* Manga-Reader.app */,
-				848C3EB5295B201900A2DE0C /* Manga-ReaderTests.xctest */,
-				848C3EBF295B201900A2DE0C /* Manga-ReaderUITests.xctest */,
+				8438CB57295B24F7006594F8 /* Manga-reader.app */,
+				8438CB70295B24F8006594F8 /* Manga-readerTests.xctest */,
+				8438CB7A295B24F8006594F8 /* Manga-readerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		848C3EA1295B201700A2DE0C /* Manga-Reader */ = {
+		8438CB59295B24F7006594F8 /* Manga-reader */ = {
 			isa = PBXGroup;
 			children = (
-				848C3EA2295B201700A2DE0C /* Manga_ReaderApp.swift */,
-				848C3EA4295B201700A2DE0C /* Persistence.swift */,
-				848C3EA9295B201700A2DE0C /* ContentView.swift */,
-				848C3EAB295B201900A2DE0C /* Assets.xcassets */,
-				848C3EAD295B201900A2DE0C /* Manga_Reader.entitlements */,
-				848C3EA6295B201700A2DE0C /* Manga_Reader.xcdatamodeld */,
-				848C3EAE295B201900A2DE0C /* Preview Content */,
+				8438CB5A295B24F7006594F8 /* AppDelegate.swift */,
+				8438CB5C295B24F7006594F8 /* SceneDelegate.swift */,
+				8438CB5E295B24F7006594F8 /* ViewController.swift */,
+				8438CB60295B24F7006594F8 /* Main.storyboard */,
+				8438CB66295B24F8006594F8 /* Assets.xcassets */,
+				8438CB68295B24F8006594F8 /* LaunchScreen.storyboard */,
+				8438CB6B295B24F8006594F8 /* Info.plist */,
+				8438CB63295B24F7006594F8 /* Manga_reader.xcdatamodeld */,
 			);
-			path = "Manga-Reader";
+			path = "Manga-reader";
 			sourceTree = "<group>";
 		};
-		848C3EAE295B201900A2DE0C /* Preview Content */ = {
+		8438CB73295B24F8006594F8 /* Manga-readerTests */ = {
 			isa = PBXGroup;
 			children = (
-				848C3EAF295B201900A2DE0C /* Preview Assets.xcassets */,
+				8438CB74295B24F8006594F8 /* Manga_readerTests.swift */,
 			);
-			path = "Preview Content";
+			path = "Manga-readerTests";
 			sourceTree = "<group>";
 		};
-		848C3EB8295B201900A2DE0C /* Manga-ReaderTests */ = {
+		8438CB7D295B24F8006594F8 /* Manga-readerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				848C3EB9295B201900A2DE0C /* Manga_ReaderTests.swift */,
+				8438CB7E295B24F8006594F8 /* Manga_readerUITests.swift */,
+				8438CB80295B24F8006594F8 /* Manga_readerUITestsLaunchTests.swift */,
 			);
-			path = "Manga-ReaderTests";
-			sourceTree = "<group>";
-		};
-		848C3EC2295B201900A2DE0C /* Manga-ReaderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				848C3EC3295B201900A2DE0C /* Manga_ReaderUITests.swift */,
-				848C3EC5295B201900A2DE0C /* Manga_ReaderUITestsLaunchTests.swift */,
-			);
-			path = "Manga-ReaderUITests";
+			path = "Manga-readerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		848C3E9E295B201700A2DE0C /* Manga-Reader */ = {
+		8438CB56295B24F7006594F8 /* Manga-reader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 848C3EC9295B201900A2DE0C /* Build configuration list for PBXNativeTarget "Manga-Reader" */;
+			buildConfigurationList = 8438CB84295B24F8006594F8 /* Build configuration list for PBXNativeTarget "Manga-reader" */;
 			buildPhases = (
-				848C3E9B295B201700A2DE0C /* Sources */,
-				848C3E9C295B201700A2DE0C /* Frameworks */,
-				848C3E9D295B201700A2DE0C /* Resources */,
+				8438CB53295B24F7006594F8 /* Sources */,
+				8438CB54295B24F7006594F8 /* Frameworks */,
+				8438CB55295B24F7006594F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Manga-Reader";
-			productName = "Manga-Reader";
-			productReference = 848C3E9F295B201700A2DE0C /* Manga-Reader.app */;
+			name = "Manga-reader";
+			productName = "Manga-reader";
+			productReference = 8438CB57295B24F7006594F8 /* Manga-reader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		848C3EB4295B201900A2DE0C /* Manga-ReaderTests */ = {
+		8438CB6F295B24F8006594F8 /* Manga-readerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 848C3ECC295B201900A2DE0C /* Build configuration list for PBXNativeTarget "Manga-ReaderTests" */;
+			buildConfigurationList = 8438CB87295B24F8006594F8 /* Build configuration list for PBXNativeTarget "Manga-readerTests" */;
 			buildPhases = (
-				848C3EB1295B201900A2DE0C /* Sources */,
-				848C3EB2295B201900A2DE0C /* Frameworks */,
-				848C3EB3295B201900A2DE0C /* Resources */,
+				8438CB6C295B24F8006594F8 /* Sources */,
+				8438CB6D295B24F8006594F8 /* Frameworks */,
+				8438CB6E295B24F8006594F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				848C3EB7295B201900A2DE0C /* PBXTargetDependency */,
+				8438CB72295B24F8006594F8 /* PBXTargetDependency */,
 			);
-			name = "Manga-ReaderTests";
-			productName = "Manga-ReaderTests";
-			productReference = 848C3EB5295B201900A2DE0C /* Manga-ReaderTests.xctest */;
+			name = "Manga-readerTests";
+			productName = "Manga-readerTests";
+			productReference = 8438CB70295B24F8006594F8 /* Manga-readerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		848C3EBE295B201900A2DE0C /* Manga-ReaderUITests */ = {
+		8438CB79295B24F8006594F8 /* Manga-readerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 848C3ECF295B201900A2DE0C /* Build configuration list for PBXNativeTarget "Manga-ReaderUITests" */;
+			buildConfigurationList = 8438CB8A295B24F8006594F8 /* Build configuration list for PBXNativeTarget "Manga-readerUITests" */;
 			buildPhases = (
-				848C3EBB295B201900A2DE0C /* Sources */,
-				848C3EBC295B201900A2DE0C /* Frameworks */,
-				848C3EBD295B201900A2DE0C /* Resources */,
+				8438CB76295B24F8006594F8 /* Sources */,
+				8438CB77295B24F8006594F8 /* Frameworks */,
+				8438CB78295B24F8006594F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				848C3EC1295B201900A2DE0C /* PBXTargetDependency */,
+				8438CB7C295B24F8006594F8 /* PBXTargetDependency */,
 			);
-			name = "Manga-ReaderUITests";
-			productName = "Manga-ReaderUITests";
-			productReference = 848C3EBF295B201900A2DE0C /* Manga-ReaderUITests.xctest */;
+			name = "Manga-readerUITests";
+			productName = "Manga-readerUITests";
+			productReference = 8438CB7A295B24F8006594F8 /* Manga-readerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		848C3E97295B201700A2DE0C /* Project object */ = {
+		8438CB4F295B24F7006594F8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					848C3E9E295B201700A2DE0C = {
+					8438CB56295B24F7006594F8 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					848C3EB4295B201900A2DE0C = {
+					8438CB6F295B24F8006594F8 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 848C3E9E295B201700A2DE0C;
+						TestTargetID = 8438CB56295B24F7006594F8;
 					};
-					848C3EBE295B201900A2DE0C = {
+					8438CB79295B24F8006594F8 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 848C3E9E295B201700A2DE0C;
+						TestTargetID = 8438CB56295B24F7006594F8;
 					};
 				};
 			};
-			buildConfigurationList = 848C3E9A295B201700A2DE0C /* Build configuration list for PBXProject "Manga-Reader" */;
+			buildConfigurationList = 8438CB52295B24F7006594F8 /* Build configuration list for PBXProject "Manga-reader" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,36 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 848C3E96295B201700A2DE0C;
-			productRefGroup = 848C3EA0295B201700A2DE0C /* Products */;
+			mainGroup = 8438CB4E295B24F7006594F8;
+			productRefGroup = 8438CB58295B24F7006594F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				848C3E9E295B201700A2DE0C /* Manga-Reader */,
-				848C3EB4295B201900A2DE0C /* Manga-ReaderTests */,
-				848C3EBE295B201900A2DE0C /* Manga-ReaderUITests */,
+				8438CB56295B24F7006594F8 /* Manga-reader */,
+				8438CB6F295B24F8006594F8 /* Manga-readerTests */,
+				8438CB79295B24F8006594F8 /* Manga-readerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		848C3E9D295B201700A2DE0C /* Resources */ = {
+		8438CB55295B24F7006594F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848C3EB0295B201900A2DE0C /* Preview Assets.xcassets in Resources */,
-				848C3EAC295B201900A2DE0C /* Assets.xcassets in Resources */,
+				8438CB6A295B24F8006594F8 /* LaunchScreen.storyboard in Resources */,
+				8438CB67295B24F8006594F8 /* Assets.xcassets in Resources */,
+				8438CB62295B24F7006594F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		848C3EB3295B201900A2DE0C /* Resources */ = {
+		8438CB6E295B24F8006594F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		848C3EBD295B201900A2DE0C /* Resources */ = {
+		8438CB78295B24F8006594F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,51 +257,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		848C3E9B295B201700A2DE0C /* Sources */ = {
+		8438CB53295B24F7006594F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848C3EA3295B201700A2DE0C /* Manga_ReaderApp.swift in Sources */,
-				848C3EA5295B201700A2DE0C /* Persistence.swift in Sources */,
-				848C3EAA295B201700A2DE0C /* ContentView.swift in Sources */,
-				848C3EA8295B201700A2DE0C /* Manga_Reader.xcdatamodeld in Sources */,
+				8438CB5F295B24F7006594F8 /* ViewController.swift in Sources */,
+				8438CB5B295B24F7006594F8 /* AppDelegate.swift in Sources */,
+				8438CB5D295B24F7006594F8 /* SceneDelegate.swift in Sources */,
+				8438CB65295B24F7006594F8 /* Manga_reader.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		848C3EB1295B201900A2DE0C /* Sources */ = {
+		8438CB6C295B24F8006594F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848C3EBA295B201900A2DE0C /* Manga_ReaderTests.swift in Sources */,
+				8438CB75295B24F8006594F8 /* Manga_readerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		848C3EBB295B201900A2DE0C /* Sources */ = {
+		8438CB76295B24F8006594F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848C3EC6295B201900A2DE0C /* Manga_ReaderUITestsLaunchTests.swift in Sources */,
-				848C3EC4295B201900A2DE0C /* Manga_ReaderUITests.swift in Sources */,
+				8438CB81295B24F8006594F8 /* Manga_readerUITestsLaunchTests.swift in Sources */,
+				8438CB7F295B24F8006594F8 /* Manga_readerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		848C3EB7295B201900A2DE0C /* PBXTargetDependency */ = {
+		8438CB72295B24F8006594F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 848C3E9E295B201700A2DE0C /* Manga-Reader */;
-			targetProxy = 848C3EB6295B201900A2DE0C /* PBXContainerItemProxy */;
+			target = 8438CB56295B24F7006594F8 /* Manga-reader */;
+			targetProxy = 8438CB71295B24F8006594F8 /* PBXContainerItemProxy */;
 		};
-		848C3EC1295B201900A2DE0C /* PBXTargetDependency */ = {
+		8438CB7C295B24F8006594F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 848C3E9E295B201700A2DE0C /* Manga-Reader */;
-			targetProxy = 848C3EC0295B201900A2DE0C /* PBXContainerItemProxy */;
+			target = 8438CB56295B24F7006594F8 /* Manga-reader */;
+			targetProxy = 8438CB7B295B24F8006594F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		8438CB60295B24F7006594F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8438CB61295B24F7006594F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8438CB68295B24F8006594F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8438CB69295B24F8006594F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		848C3EC7295B201900A2DE0C /* Debug */ = {
+		8438CB82295B24F8006594F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,15 +370,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		848C3EC8295B201900A2DE0C /* Release */ = {
+		8438CB83295B24F8006594F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -407,86 +424,71 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		848C3ECA295B201900A2DE0C /* Debug */ = {
+		8438CB85295B24F8006594F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Manga-Reader/Manga_Reader.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Manga-Reader/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_FILE = "Manga-reader/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-Reader";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		848C3ECB295B201900A2DE0C /* Release */ = {
+		8438CB86295B24F8006594F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Manga-Reader/Manga_Reader.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Manga-Reader/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_FILE = "Manga-reader/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-Reader";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		848C3ECD295B201900A2DE0C /* Debug */ = {
+		8438CB88295B24F8006594F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -495,20 +497,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-ReaderTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-readerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manga-Reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Manga-Reader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manga-reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Manga-reader";
 			};
 			name = Debug;
 		};
-		848C3ECE295B201900A2DE0C /* Release */ = {
+		8438CB89295B24F8006594F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,96 +516,85 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-ReaderTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-readerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manga-Reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Manga-Reader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manga-reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Manga-reader";
 			};
 			name = Release;
 		};
-		848C3ED0295B201900A2DE0C /* Debug */ = {
+		8438CB8B295B24F8006594F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-ReaderUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-readerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Manga-Reader";
+				TEST_TARGET_NAME = "Manga-reader";
 			};
 			name = Debug;
 		};
-		848C3ED1295B201900A2DE0C /* Release */ = {
+		8438CB8C295B24F8006594F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-ReaderUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.com.sarath11kb.manga-reader.Manga-readerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Manga-Reader";
+				TEST_TARGET_NAME = "Manga-reader";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		848C3E9A295B201700A2DE0C /* Build configuration list for PBXProject "Manga-Reader" */ = {
+		8438CB52295B24F7006594F8 /* Build configuration list for PBXProject "Manga-reader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				848C3EC7295B201900A2DE0C /* Debug */,
-				848C3EC8295B201900A2DE0C /* Release */,
+				8438CB82295B24F8006594F8 /* Debug */,
+				8438CB83295B24F8006594F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		848C3EC9295B201900A2DE0C /* Build configuration list for PBXNativeTarget "Manga-Reader" */ = {
+		8438CB84295B24F8006594F8 /* Build configuration list for PBXNativeTarget "Manga-reader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				848C3ECA295B201900A2DE0C /* Debug */,
-				848C3ECB295B201900A2DE0C /* Release */,
+				8438CB85295B24F8006594F8 /* Debug */,
+				8438CB86295B24F8006594F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		848C3ECC295B201900A2DE0C /* Build configuration list for PBXNativeTarget "Manga-ReaderTests" */ = {
+		8438CB87295B24F8006594F8 /* Build configuration list for PBXNativeTarget "Manga-readerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				848C3ECD295B201900A2DE0C /* Debug */,
-				848C3ECE295B201900A2DE0C /* Release */,
+				8438CB88295B24F8006594F8 /* Debug */,
+				8438CB89295B24F8006594F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		848C3ECF295B201900A2DE0C /* Build configuration list for PBXNativeTarget "Manga-ReaderUITests" */ = {
+		8438CB8A295B24F8006594F8 /* Build configuration list for PBXNativeTarget "Manga-readerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				848C3ED0295B201900A2DE0C /* Debug */,
-				848C3ED1295B201900A2DE0C /* Release */,
+				8438CB8B295B24F8006594F8 /* Debug */,
+				8438CB8C295B24F8006594F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -614,17 +602,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		848C3EA6295B201700A2DE0C /* Manga_Reader.xcdatamodeld */ = {
+		8438CB63295B24F7006594F8 /* Manga_reader.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				848C3EA7295B201700A2DE0C /* Manga_Reader.xcdatamodel */,
+				8438CB64295B24F7006594F8 /* Manga_reader.xcdatamodel */,
 			);
-			currentVersion = 848C3EA7295B201700A2DE0C /* Manga_Reader.xcdatamodel */;
-			path = Manga_Reader.xcdatamodeld;
+			currentVersion = 8438CB64295B24F7006594F8 /* Manga_reader.xcdatamodel */;
+			path = Manga_reader.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 848C3E97295B201700A2DE0C /* Project object */;
+	rootObject = 8438CB4F295B24F7006594F8 /* Project object */;
 }

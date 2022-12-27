@@ -1,13 +1,13 @@
 //
-//  Manga_ReaderUITestsLaunchTests.swift
-//  Manga-ReaderUITests
+//  Manga_readerUITestsLaunchTests.swift
+//  Manga-readerUITests
 //
 //  Created by Admin on 27/12/22.
 //
 
 import XCTest
 
-final class Manga_ReaderUITestsLaunchTests: XCTestCase {
+final class Manga_readerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

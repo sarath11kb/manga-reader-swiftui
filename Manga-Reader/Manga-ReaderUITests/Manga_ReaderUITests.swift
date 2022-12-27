@@ -1,13 +1,13 @@
 //
-//  Manga_ReaderUITests.swift
-//  Manga-ReaderUITests
+//  Manga_readerUITests.swift
+//  Manga-readerUITests
 //
 //  Created by Admin on 27/12/22.
 //
 
 import XCTest
 
-final class Manga_ReaderUITests: XCTestCase {
+final class Manga_readerUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

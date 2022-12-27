@@ -1,13 +1,14 @@
 //
-//  Manga_ReaderTests.swift
-//  Manga-ReaderTests
+//  Manga_readerTests.swift
+//  Manga-readerTests
 //
 //  Created by Admin on 27/12/22.
 //
 
 import XCTest
+@testable import Manga_reader
 
-final class Manga_ReaderTests: XCTestCase {
+final class Manga_readerTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,7 +28,7 @@ final class Manga_ReaderTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
