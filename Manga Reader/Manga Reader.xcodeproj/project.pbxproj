@@ -17,6 +17,7 @@
 		8438CBBB295C139A006594F8 /* Manga_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBBA295C139A006594F8 /* Manga_ReaderUITests.swift */; };
 		8438CBBD295C139A006594F8 /* Manga_ReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBBC295C139A006594F8 /* Manga_ReaderUITestsLaunchTests.swift */; };
 		8438CBCB295C1848006594F8 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBCA295C1848006594F8 /* LibraryView.swift */; };
+		8438CBD0295C1F66006594F8 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBCF295C1F66006594F8 /* LibraryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8438CBBA295C139A006594F8 /* Manga_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga_ReaderUITests.swift; sourceTree = "<group>"; };
 		8438CBBC295C139A006594F8 /* Manga_ReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga_ReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8438CBCA295C1848006594F8 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		8438CBCF295C1F66006594F8 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +143,18 @@
 		8438CBC9295C13BF006594F8 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				8438CBCC295C1F1E006594F8 /* manga card */,
 				8438CBCA295C1848006594F8 /* LibraryView.swift */,
+				8438CBCF295C1F66006594F8 /* LibraryViewModel.swift */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		8438CBCC295C1F1E006594F8 /* manga card */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "manga card";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +291,7 @@
 				8438CB9C295C1398006594F8 /* Persistence.swift in Sources */,
 				8438CBA1295C1398006594F8 /* ContentView.swift in Sources */,
 				8438CBCB295C1848006594F8 /* LibraryView.swift in Sources */,
+				8438CBD0295C1F66006594F8 /* LibraryViewModel.swift in Sources */,
 				8438CB9F295C1398006594F8 /* Manga_Reader.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
